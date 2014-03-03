@@ -56,6 +56,12 @@ sub update_conf {
     $SiteDefs::__species_aliases{ 'Giardia_lamblia' } = [qw(gl)];
     $SiteDefs::__species_aliases{ 'Emiliania_huxleyi' } = [qw(Emiliania_huxleyi)];
     $SiteDefs::__species_aliases{ 'Guillardia_theta' } = [qw(gt)];
+    $SiteDefs::__species_aliases{ 'Bigelowiella_natans' } = [qw(bn)];
+    $SiteDefs::__species_aliases{'Pythium_aphanidermatum'} = [qw(Pythium_aphanidermatum)];
+    $SiteDefs::__species_aliases{'Pythium_arrhenomanes'} = [qw(Pythium_arrhenomanes)];
+    $SiteDefs::__species_aliases{'Pythium_irregulare'} = [qw(Pythium_irregulare)];
+    $SiteDefs::__species_aliases{'Pythium_iwayamai'} = [qw(Pythium_iwayamai)];
+    $SiteDefs::__species_aliases{'Pythium_vexans'} = [qw(Pythium_vexans)];
     @SiteDefs::ENSEMBL_PERL_DIRS    = (
                                            $SiteDefs::ENSEMBL_SERVERROOT.'/perl',
                                            $SiteDefs::ENSEMBL_SERVERROOT.'/eg-plugins/common/perl',
