@@ -63,12 +63,12 @@ sub update_conf {
     $SiteDefs::__species_aliases{'Pythium_iwayamai'} = [qw(Pythium_iwayamai)];
     $SiteDefs::__species_aliases{'Pythium_vexans'} = [qw(Pythium_vexans)];
     @SiteDefs::ENSEMBL_PERL_DIRS    = (
-                                           $SiteDefs::ENSEMBL_SERVERROOT.'/perl',
-                                           $SiteDefs::ENSEMBL_SERVERROOT.'/eg-plugins/common/perl',
-                                           $SiteDefs::ENSEMBL_SERVERROOT.'/eg-plugins/protists/perl',
+                                           $SiteDefs::ENSEMBL_WEBROOT.'/perl',
+                                           $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-common/perl',
+                                           $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-protists/perl',
 				       );
     
-    $SiteDefs::DOCSEARCH_INDEX_DIR = $SiteDefs::ENSEMBL_SERVERROOT.'/eg-plugins/protists/data/docsearch';
+    $SiteDefs::DOCSEARCH_INDEX_DIR = $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-protists/data/docsearch';
 
     push @SiteDefs::ENSEMBL_HTDOCS_DIRS,  $SiteDefs::ENSEMBL_SERVERROOT.'/../biomarts/protists/biomart-perl/htdocs';
     $SiteDefs::ENA_COLLECTION_ID = 222;
