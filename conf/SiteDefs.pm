@@ -54,6 +54,10 @@ sub update_conf {
 
     $SiteDefs::__species_aliases{ 'Paramecium_tetraurelia' } = [qw(pt)];
     $SiteDefs::__species_aliases{ 'Giardia_lamblia' } = [qw(gl)];
+    $SiteDefs::__species_aliases{ 'Phytophthora_parasitica'} = [qw(Phytophthora_parasitica)];
+    $SiteDefs::__species_aliases{ 'Phytophthora_lateralis'} = [qw(Phytophthora_lateralis)];
+    $SiteDefs::__species_aliases{ 'Phytophthora_kernoviae'} = [qw(Phytophthora_kernoviae)];
+    $SiteDefs::__species_aliases{ 'Phytophthora_capsici'} = [qw(Phytophthora_capsici)];
     $SiteDefs::__species_aliases{ 'Emiliania_huxleyi' } = [qw(Emiliania_huxleyi)];
     $SiteDefs::__species_aliases{ 'Guillardia_theta' } = [qw(gt)];
     $SiteDefs::__species_aliases{ 'Bigelowiella_natans' } = [qw(bn)];
