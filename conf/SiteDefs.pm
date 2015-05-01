@@ -20,14 +20,12 @@ package EG::Protists::SiteDefs;
 use strict;
 sub update_conf {
 
-    $SiteDefs::SITE_NAME = 'Ensembl Protists';
-    $SiteDefs::ENSEMBL_SITETYPE = 'Ensembl Protists';
-    $SiteDefs::SITE_FTP= 'ftp://ftp.ensemblgenomes.org/pub/protists';
-
-    $SiteDefs::ENSEMBL_PORT           = 8005;
-    $SiteDefs::ENSEMBL_SERVERNAME     = 'protists.ensembl.org';
-
-    $SiteDefs::ENSEMBL_PRIMARY_SPECIES  = 'Plasmodium_falciparum';
+    $SiteDefs::SITE_NAME                 = 'Ensembl Protists';
+    $SiteDefs::ENSEMBL_SITETYPE          = 'Ensembl Protists';
+    $SiteDefs::SITE_FTP                  = 'ftp://ftp.ensemblgenomes.org/pub/protists';
+    $SiteDefs::ENSEMBL_PORT              = 8005;
+    $SiteDefs::ENSEMBL_SERVERNAME        = 'protists.ensembl.org';
+    $SiteDefs::ENSEMBL_PRIMARY_SPECIES   = 'Plasmodium_falciparum';
     $SiteDefs::ENSEMBL_SECONDARY_SPECIES = 'Plasmodium_knowlesi';
 
     $SiteDefs::ENSEMBL_DATASETS = [qw(
@@ -66,10 +64,10 @@ sub update_conf {
     )];
 
     @SiteDefs::ENSEMBL_PERL_DIRS    = (
-                                           $SiteDefs::ENSEMBL_WEBROOT.'/perl',
-                                           $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-common/perl',
-                                           $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-protists/perl',
-				       );
+      $SiteDefs::ENSEMBL_WEBROOT . '/perl',
+      $SiteDefs::ENSEMBL_SERVERROOT . '/eg-web-common/perl',
+      $SiteDefs::ENSEMBL_SERVERROOT . '/eg-web-protists/perl',
+    );
     
     $SiteDefs::DOCSEARCH_INDEX_DIR = $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-protists/data/docsearch';
 
