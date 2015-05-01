@@ -30,41 +30,41 @@ sub update_conf {
     $SiteDefs::ENSEMBL_PRIMARY_SPECIES  = 'Plasmodium_falciparum';
     $SiteDefs::ENSEMBL_SECONDARY_SPECIES = 'Plasmodium_knowlesi';
 
-    $SiteDefs::__species_aliases{ 'Plasmodium_falciparum'       } = [qw(pf falciparum malaria p_falciparum)];
-    $SiteDefs::__species_aliases{ 'Plasmodium_knowlesi'       } = [qw(pk knowlesi p_knowlesi)];
-    $SiteDefs::__species_aliases{ 'Plasmodium_vivax'       } = [qw(pv vivax p_vivax)];
-    $SiteDefs::__species_aliases{ 'Plasmodium_berghei'       } = [qw(pb berghei p_berghei)];
-    $SiteDefs::__species_aliases{ 'Plasmodium_chabaudi'       } = [qw(pc chabaudi p_chabaudi)];
-    $SiteDefs::__species_aliases{ 'Dictyostelium_discoideum'       } = [qw(dd dicty d_discoideum)];
-    $SiteDefs::__species_aliases{ 'Phaeodactylum_tricornutum'       } = [qw(pt p_tricornutum)];
-    $SiteDefs::__species_aliases{ 'Thalassiosira_pseudonana'       } = [qw(tp t_pseudonana)];
-    $SiteDefs::__species_aliases{ 'Phytophthora_infestans'       } = [qw(pi p_infestans)];
-    $SiteDefs::__species_aliases{ 'Phytophthora_ramorum'       }   = [qw(pr p_ramorum)];
-    $SiteDefs::__species_aliases{ 'Phytophthora_sojae'       }     = [qw(ps p_sojae)];
-    
-    $SiteDefs::__species_aliases{ 'Pythium_ultimum'       }     = [qw(pu p_ultimum)];
-    $SiteDefs::__species_aliases{ 'Leishmania_major' } = [qw(lm l_major)];
-    $SiteDefs::__species_aliases{ 'Trypanosoma_brucei' } = [qw(tb t_brucei)];
-    $SiteDefs::__species_aliases{ 'Toxoplasma_gondii' } = [qw(tp t_gondii)];
+    $SiteDefs::ENSEMBL_DATASETS = [qw(
+      Albugo_laibachii
+      Bigelowiella_natans
+      Dictyostelium_discoideum
+      Emiliania_huxleyi
+      Entamoeba_histolytica
+      Giardia_lamblia
+      Guillardia_theta
+      Hyaloperonospora_arabidopsidis
+      Leishmania_major
+      Paramecium_tetraurelia
+      Phaeodactylum_tricornutum
+      Phytophthora_infestans
+      Phytophthora_kernoviae
+      Phytophthora_lateralis
+      Phytophthora_parasitica
+      Phytophthora_ramorum
+      Phytophthora_sojae
+      Plasmodium_berghei
+      Plasmodium_chabaudi
+      Plasmodium_falciparum
+      Plasmodium_knowlesi
+      Plasmodium_vivax
+      Pythium_aphanidermatum
+      Pythium_arrhenomanes
+      Pythium_irregulare
+      Pythium_iwayamai
+      Pythium_ultimum
+      Pythium_vexansrence Lists' section.
+      Tetrahymena_thermophila
+      Thalassiosira_pseudonana
+      Toxoplasma_gondii
+      Trypanosoma_brucei
+    )];
 
-    $SiteDefs::__species_aliases{ 'Hyaloperonospora_arabidopsidis' } = [qw(ha h_arabidopsidis)];
-    $SiteDefs::__species_aliases{ 'Tetrahymena_thermophila' } = [qw(th)];
-    $SiteDefs::__species_aliases{ 'Entamoeba_histolytica' } = [qw(eh)];
-    $SiteDefs::__species_aliases{ 'Albugo_laibachii' } = [qw(al)];
-
-    $SiteDefs::__species_aliases{ 'Paramecium_tetraurelia' } = [qw(pt)];
-    $SiteDefs::__species_aliases{ 'Giardia_lamblia' } = [qw(gl)];
-    $SiteDefs::__species_aliases{ 'Phytophthora_parasitica'} = [qw(Phytophthora_parasitica)];
-    $SiteDefs::__species_aliases{ 'Phytophthora_lateralis'} = [qw(Phytophthora_lateralis)];
-    $SiteDefs::__species_aliases{ 'Phytophthora_kernoviae'} = [qw(Phytophthora_kernoviae)];
-    $SiteDefs::__species_aliases{ 'Emiliania_huxleyi' } = [qw(Emiliania_huxleyi)];
-    $SiteDefs::__species_aliases{ 'Guillardia_theta' } = [qw(gt)];
-    $SiteDefs::__species_aliases{ 'Bigelowiella_natans' } = [qw(bn)];
-    $SiteDefs::__species_aliases{'Pythium_aphanidermatum'} = [qw(Pythium_aphanidermatum)];
-    $SiteDefs::__species_aliases{'Pythium_arrhenomanes'} = [qw(Pythium_arrhenomanes)];
-    $SiteDefs::__species_aliases{'Pythium_irregulare'} = [qw(Pythium_irregulare)];
-    $SiteDefs::__species_aliases{'Pythium_iwayamai'} = [qw(Pythium_iwayamai)];
-    $SiteDefs::__species_aliases{'Pythium_vexans'} = [qw(Pythium_vexans)];
     @SiteDefs::ENSEMBL_PERL_DIRS    = (
                                            $SiteDefs::ENSEMBL_WEBROOT.'/perl',
                                            $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-common/perl',
