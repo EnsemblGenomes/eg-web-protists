@@ -57,7 +57,7 @@ sub update_conf {
         Pythium_irregulare
         Pythium_iwayamai
         Pythium_ultimum
-        Pythium_vexansrence
+        Pythium_vexans
         Tetrahymena_thermophila
         Thalassiosira_pseudonana
         Toxoplasma_gondii
