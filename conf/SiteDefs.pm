@@ -68,10 +68,14 @@ sub update_conf {
       qw(
         Protists_alveolata1
         Protists_amoebozoa1
+        Protists_apusozoa1
         Protists_choanoflagellida1
+        Protists_cryptophyta1
         Protists_euglenozoa1
         Protists_fornicata1
         Protists_heterolobosea1
+        Protists_ichthyosporea1
+        Protists_nucleariidaeandfonticulagroup1
         Protists_parabasalia1
         Protists_rhizaria1
         Protists_rhodophyta1
