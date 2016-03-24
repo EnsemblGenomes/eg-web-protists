@@ -7,10 +7,10 @@ Ensembl.LayoutManager = Ensembl.LayoutManager.extend({
       "GeneDB JBrowse" : "http://www.genedb.org/jbrowse/Pvivax/?loc=###CHR###:###START###..###END###&tracks=Complex%20Gene%20Models"
    },
    "Thalassiosira_pseudonana" : {
-      "JGI Genome browser" : "http://genome.jgi-psf.org/cgi-bin/browserLoad?db=Thaps3&position=chr_###CHR###:###START###..###END###"
+      "JGI Genome browser" : "http://genome.jgi.doe.gov/cgi-bin/browserLoad?db=Thaps3&position=chr_###CHR###:###START###..###END###"
    },
    "Phaeodactylum_tricornutum" : {
-      "JGI Genome browser" : "http://genome.jgi-psf.org/cgi-bin/browserLoad?db=Phatr2&position=chr_###CHR###:###START###..###END###"
+      "JGI Genome browser" : "http://genome.jgi.doe.gov/cgi-bin/browserLoad?db=Phatr2&position=chr_###CHR###:###START###..###END###"
    },
    "Dictyostelium_discoideum" : {
       "DictyBase browser" : "http://dictybase.org/db/cgi-bin/ggb/gbrowse/discoideum/?name=###CHR###:###START###..###END###"
