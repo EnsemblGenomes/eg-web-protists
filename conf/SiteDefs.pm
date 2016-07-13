@@ -78,7 +78,6 @@ sub update_conf {
         Protists_nucleariidaeandfonticulagroup1
         Protists_parabasalia1
         Protists_rhizaria1
-        Protists_rhodophyta1
         Protists_stramenopiles1
       )
     ];
