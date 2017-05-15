@@ -30,56 +30,56 @@ sub update_conf {
     $SiteDefs::ENSEMBL_SECONDARY_SPECIES = 'Plasmodium_knowlesi';
     $SiteDefs::ENSEMBL_HMMER_ENABLED     = 1;
 
-    $SiteDefs::ENSEMBL_DATASETS = [
+    $SiteDefs::PRODUCTION_NAMES = [
       qw(
-        Albugo_laibachii
-        Bigelowiella_natans
-        Dictyostelium_discoideum
-        Emiliania_huxleyi
-        Entamoeba_histolytica
-        Giardia_lamblia
-        Guillardia_theta
-        Hyaloperonospora_arabidopsidis
-        Leishmania_major
-        Paramecium_tetraurelia
-        Phaeodactylum_tricornutum
-        Phytophthora_infestans
-        Phytophthora_kernoviae
-        Phytophthora_lateralis
-        Phytophthora_parasitica
-        Phytophthora_ramorum
-        Phytophthora_sojae
-        Plasmodium_berghei
-        Plasmodium_chabaudi
-        Plasmodium_falciparum
-        Plasmodium_knowlesi
-        Plasmodium_vivax
-        Pythium_aphanidermatum
-        Pythium_arrhenomanes
-        Pythium_irregulare
-        Pythium_iwayamai
-        Pythium_ultimum
-        Pythium_vexans
-        Tetrahymena_thermophila
-        Thalassiosira_pseudonana
-        Toxoplasma_gondii
-        Trypanosoma_brucei
+        albugo_laibachii
+        bigelowiella_natans
+        dictyostelium_discoideum
+        emiliania_huxleyi
+        entamoeba_histolytica
+        giardia_lamblia
+        guillardia_theta
+        hyaloperonospora_arabidopsidis
+        leishmania_major
+        paramecium_tetraurelia
+        phaeodactylum_tricornutum
+        phytophthora_infestans
+        phytophthora_kernoviae
+        phytophthora_lateralis
+        phytophthora_parasitica
+        phytophthora_ramorum
+        phytophthora_sojae
+        plasmodium_berghei
+        plasmodium_chabaudi
+        plasmodium_falciparum
+        plasmodium_knowlesi
+        plasmodium_vivax
+        pythium_aphanidermatum
+        pythium_arrhenomanes
+        pythium_irregulare
+        pythium_iwayamai
+        pythium_ultimum
+        pythium_vexans
+        tetrahymena_thermophila
+        thalassiosira_pseudonana
+        toxoplasma_gondii
+        trypanosoma_brucei
       ),
       # collections
       qw(
-        Protists_alveolata1
-        Protists_amoebozoa1
-        Protists_apusozoa1
-        Protists_choanoflagellida1
-        Protists_cryptophyta1
-        Protists_euglenozoa1
-        Protists_fornicata1
-        Protists_heterolobosea1
-        Protists_ichthyosporea1
-        Protists_nucleariidaeandfonticulagroup1
-        Protists_parabasalia1
-        Protists_rhizaria1
-        Protists_stramenopiles1
+        protists_alveolata1
+        protists_amoebozoa1
+        protists_apusozoa1
+        protists_choanoflagellida1
+        protists_cryptophyta1
+        protists_euglenozoa1
+        protists_fornicata1
+        protists_heterolobosea1
+        protists_ichthyosporea1
+        protists_nucleariidaeandfonticulagroup1
+        protists_parabasalia1
+        protists_rhizaria1
+        protists_stramenopiles1
       )
     ];
 
