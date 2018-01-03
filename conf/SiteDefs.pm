@@ -20,6 +20,7 @@ package EG::Protists::SiteDefs;
 use strict;
 sub update_conf {
 
+    $SiteDefs::DIVISION               = 'protists';
     $SiteDefs::EG_DIVISION               = 'protists';
     $SiteDefs::SUBDOMAIN_DIR    	 = 'protists';
     $SiteDefs::SITE_NAME                 = 'Ensembl Protists';
