@@ -56,6 +56,7 @@ sub update_conf {
         plasmodium_falciparum
         plasmodium_knowlesi
         plasmodium_vivax
+        pseudonitzschia_multistriata
         pythium_aphanidermatum
         pythium_arrhenomanes
         pythium_irregulare
