@@ -25,7 +25,7 @@ sub update_conf {
     $SiteDefs::SUBDOMAIN_DIR    	 = 'protists';
     $SiteDefs::SITE_NAME                 = 'Ensembl Protists';
     $SiteDefs::ENSEMBL_SITETYPE          = 'Ensembl Protists';
-    $SiteDefs::SITE_FTP                  = 'ftp://ftp.ensemblgenomes.org/pub/protists';
+    $SiteDefs::SITE_FTP                  = 'http://ftp.ensemblgenomes.org/pub/protists';
     $SiteDefs::ENSEMBL_PORT              = 8005;
     $SiteDefs::ENSEMBL_SERVERNAME        = 'protists.ensembl.org';
     $SiteDefs::ENSEMBL_PRIMARY_SPECIES   = 'Plasmodium_falciparum';
