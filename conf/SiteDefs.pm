@@ -32,6 +32,9 @@ sub update_conf {
     $SiteDefs::ENSEMBL_SECONDARY_SPECIES = 'Plasmodium_knowlesi';
     $SiteDefs::ENSEMBL_HMMER_ENABLED     = 1;
 
+    ## Disable ID History Converter as no data right now
+    $SiteDefs::ENSEMBL_IDM_ENABLED       = 0;
+
     $SiteDefs::PRODUCTION_NAMES = [
       qw(
         albugo_laibachii
