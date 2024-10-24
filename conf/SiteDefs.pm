@@ -37,12 +37,19 @@ sub update_conf {
 
     $SiteDefs::PRODUCTION_NAMES = [
       qw(
+        acanthamoeba_castellanii
         albugo_laibachii
+        aphanomyces_astaci_gca000520075
+        aphanomyces_invadans_gca000520115
+        babesia_bovis
         bigelowiella_natans
         dictyostelium_discoideum
+        eimeria_mitis
         emiliania_huxleyi
         entamoeba_histolytica
-        giardia_lamblia
+        giardia_intestinalis_gca000002435v2
+        globisporangium_ultimum
+        globisporangium_ultimum_gca000387525
         guillardia_theta
         hyaloperonospora_arabidopsidis
         leishmania_major
@@ -58,7 +65,10 @@ sub update_conf {
         plasmodium_chabaudi
         plasmodium_falciparum
         plasmodium_knowlesi
+        plasmodium_sp_gca900257145
         plasmodium_vivax
+        plasmodium_vivax_gca900093555
+        plasmodium_yoelii
         pseudonitzschia_multistriata
         pythium_aphanidermatum
         pythium_arrhenomanes
@@ -66,6 +76,8 @@ sub update_conf {
         pythium_iwayamai
         pythium_ultimum
         pythium_vexans
+        spironucleus_salmonicida
+        trypanosoma_brucei_gca003072535v3
         tetrahymena_thermophila
         thalassiosira_pseudonana
         toxoplasma_gondii
