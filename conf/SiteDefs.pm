@@ -77,7 +77,7 @@ sub update_conf {
         pythium_ultimum
         pythium_vexans
         spironucleus_salmonicida
-        trypanosoma_brucei_gca003072535v3
+        trypanosoma_brucei_gca000002445
         tetrahymena_thermophila
         thalassiosira_pseudonana
         toxoplasma_gondii
