@@ -80,6 +80,8 @@ sub update_conf {
         trypanosoma_brucei_gca000002445
         tetrahymena_thermophila
         thalassiosira_pseudonana
+        theileria_orientalis_gca003072535
+        theileria_orientalis_gca003072545
         toxoplasma_gondii
         trypanosoma_brucei
       ),
