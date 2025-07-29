@@ -30,7 +30,7 @@ sub update_conf {
     $SiteDefs::ENSEMBL_SERVERNAME        = 'protists.ensembl.org';
     $SiteDefs::ENSEMBL_PRIMARY_SPECIES   = 'Plasmodium_falciparum';
     $SiteDefs::ENSEMBL_SECONDARY_SPECIES = 'Plasmodium_knowlesi';
-    $SiteDefs::ENSEMBL_HMMER_ENABLED     = 1;
+    $SiteDefs::ENSEMBL_HMMER_ENABLED     = 0;
 
     ## Disable ID History Converter as no data right now
     $SiteDefs::ENSEMBL_IDM_ENABLED       = 0;
