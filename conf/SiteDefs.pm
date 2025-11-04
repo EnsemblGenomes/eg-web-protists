@@ -38,7 +38,6 @@ sub update_conf {
     $SiteDefs::PRODUCTION_NAMES = [
       qw(
         acanthamoeba_castellanii
-        albugo_laibachii
         aphanomyces_astaci_gca000520075
         aphanomyces_invadans_gca000520115
         babesia_bovis
@@ -66,7 +65,6 @@ sub update_conf {
         plasmodium_falciparum
         plasmodium_knowlesi
         plasmodium_sp_gca900257145
-        plasmodium_vivax
         plasmodium_vivax_gca900093555
         plasmodium_yoelii
         pseudonitzschia_multistriata
@@ -74,7 +72,6 @@ sub update_conf {
         pythium_arrhenomanes
         pythium_irregulare
         pythium_iwayamai
-        pythium_ultimum
         pythium_vexans
         spironucleus_salmonicida
         trypanosoma_brucei_gca000002445
