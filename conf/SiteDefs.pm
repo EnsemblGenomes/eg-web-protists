@@ -80,7 +80,6 @@ sub update_conf {
         theileria_orientalis_gca003072535
         theileria_orientalis_gca003072545
         toxoplasma_gondii
-        trypanosoma_brucei
       ),
       # collections
       qw(
